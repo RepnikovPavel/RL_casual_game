@@ -13,12 +13,12 @@ import img_processing
 import random
 import numpy as np
 import pprint
-from torchsummary import summary
+from torchinfo import summary
 
 
 from PIL import Image
 
-
+import models
 
 if __name__ == '__main__':
     timer = time_mesuament.Timer()
@@ -28,16 +28,16 @@ if __name__ == '__main__':
     test_image_path = os.path.join(config.base_row_data_path, 'test_image.png')
 
 
-
-
     models_manager = managers.ModelsManager()
-    model = models_manager.load_model(description_of_the_model=pretrained_model,
+    pr_resnet_ = models_manager.load_model(description_of_the_model=pretrained_model,
                                       reload_from_internet=False)
+
+    model = models.PolicyFuncmaker.create_sequential(resnet_=pr_resnet_)
 
     embeddings = []
 
-    # pprint.pprint(summary(model))
-    # print(model)
+    pprint.pprint(summary(model))
+    print(model)
 
     model_controller = model_using.ModelController(model=model)
     gpu_device = torch.device('cuda', index=0)
