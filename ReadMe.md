@@ -2,9 +2,8 @@ ___
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNhX06sFyqqMkNojnWeX8QZHdR5F6iAlOdZw&usqp=CAU)
 
->Sun Tzu 
+>Sun Tzu  
 **stack more layers**
-
 ___
 # Tasks
 - [ ] 
