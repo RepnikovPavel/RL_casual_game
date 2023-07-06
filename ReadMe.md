@@ -3,7 +3,7 @@ ___
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNhX06sFyqqMkNojnWeX8QZHdR5F6iAlOdZw&usqp=CAU)
 
 >Sun Tzu  
-**stack more layers**  and
+**stack more layers**  &&
 ./pip install -r ./reqirements.txt --extra-index-url https://download.pytorch.org/whl/cu117
 ___
 # Tasks
