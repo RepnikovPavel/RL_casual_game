@@ -5,6 +5,16 @@ ___
 >Sun Tzu  
 ./pip install -r ./reqirements.txt --extra-index-url https://download.pytorch.org/whl/cu117 && **stack more layers**  
 ___
+
+# Linux
+
+```console
+sudo apt install ffmpeg
+```
+
+___
+
+
 # Tasks
 - [ ] 
 - [ ]  
